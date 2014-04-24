@@ -5,7 +5,7 @@ from django.views.generic.base import TemplateView
 from django.http.response import HttpResponse
 from django.core import serializers
 
-# Create your views here.
+
 class HomeListView(ListView):
     template_name = 'update_list.html'
     model = Update

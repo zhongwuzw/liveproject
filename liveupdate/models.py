@@ -40,7 +40,7 @@ admin.site.register(Contact)
 class UserEditorForm(forms.ModelForm):
     class Meta:
         model = User
-        field = ('username','first_name','last_name','email')
+        fields = ('username','first_name','last_name','email')
         
 class ContactEditorForm(forms.ModelForm):
     class Meta:
